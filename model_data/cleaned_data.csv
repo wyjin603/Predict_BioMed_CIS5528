@@ -1,0 +1,351 @@
+Compound,Variants,Vmax (pmol/min/pmol P450),Km (?M),CLint (Vmax/Km) (?L/min/pmol P450),Primary metabolic reaction by CYP3A4,Reference
+acalabrutinib,CYP3A4.01,0.3,1.58,0.19,hydroxylation to ACP-5862,Han et al 2021 109559
+acalabrutinib,CYP3A4.02,1.85,5.93,0.31,hydroxylation to ACP-5862,Han et al 2021 109559
+acalabrutinib,CYP3A4.03,1.04,1.43,0.77,hydroxylation to ACP-5862,Han et al 2021 109559
+acalabrutinib,CYP3A4.04,0.79,2.75,0.3,hydroxylation to ACP-5862,Han et al 2021 109559
+acalabrutinib,CYP3A4.05,1.01,9.49,0.11,hydroxylation to ACP-5862,Han et al 2021 109559
+acalabrutinib,CYP3A4.09,1.23,30.02,0.04,hydroxylation to ACP-5862,Han et al 2021 109559
+acalabrutinib,CYP3A4.10,0.56,7.75,0.07,hydroxylation to ACP-5862,Han et al 2021 109559
+acalabrutinib,CYP3A4.11,2.81,2.48,1.13,hydroxylation to ACP-5862,Han et al 2021 109559
+acalabrutinib,CYP3A4.14,0.35,10.02,0.04,hydroxylation to ACP-5862,Han et al 2021 109559
+acalabrutinib,CYP3A4.15,0.92,3.53,0.26,hydroxylation to ACP-5862,Han et al 2021 109559
+acalabrutinib,CYP3A4.16,0.23,5.8,0.04,hydroxylation to ACP-5862,Han et al 2021 109559
+acalabrutinib,CYP3A4.23,0.13,7.38,0.02,hydroxylation to ACP-5862,Han et al 2021 109559
+acalabrutinib,CYP3A4.28,0.35,11.2,0.03,hydroxylation to ACP-5862,Han et al 2021 109559
+acalabrutinib,CYP3A4.29,1.31,3.42,0.39,hydroxylation to ACP-5862,Han et al 2021 109559
+acalabrutinib,CYP3A4.31,0.22,2.54,0.09,hydroxylation to ACP-5862,Han et al 2021 109559
+acalabrutinib,CYP3A4.32,0.12,2.56,0.05,hydroxylation to ACP-5862,Han et al 2021 109559
+acalabrutinib,CYP3A4.33,1.22,2.01,0.61,hydroxylation to ACP-5862,Han et al 2021 109559
+acalabrutinib,CYP3A4.34,0.14,1.58,0.09,hydroxylation to ACP-5862,Han et al 2021 109559
+amiodarone,CYP3A4.01,16.33,21.7,0.76,N-ethylation to N-desethylamiodarone,Yang et al 2019
+amiodarone,CYP3A4.03,12.17,11.93,1.03,N-ethylation to N-desethylamiodarone,Yang et al 2019
+amiodarone,CYP3A4.05,13.35,17.32,0.77,N-ethylation to N-desethylamiodarone,Yang et al 2019
+amiodarone,CYP3A4.14,15.22,5.79,1.62,N-ethylation to N-desethylamiodarone,Yang et al 2019
+amiodarone,CYP3A4.15,12.84,7.29,1.27,N-ethylation to N-desethylamiodarone,Yang et al 2019
+amiodarone,CYP3A4.16,8.36,7.54,1.11,N-ethylation to N-desethylamiodarone,Yang et al 2019
+amiodarone,CYP3A4.17,7.66,91.85,0.08,N-ethylation to N-desethylamiodarone,Yang et al 2019
+amiodarone,CYP3A4.18,13.95,5.4,1.55,N-ethylation to N-desethylamiodarone,Yang et al 2019
+amiodarone,CYP3A4.19,11.84,7.08,1.68,N-ethylation to N-desethylamiodarone,Yang et al 2019
+amiodarone,CYP3A4.23,12.32,7.57,1.69,N-ethylation to N-desethylamiodarone,Yang et al 2019
+amiodarone,CYP3A4.24,7.62,380.87,0.02,N-ethylation to N-desethylamiodarone,Yang et al 2019
+amiodarone,CYP3A4.28,15.05,21.32,0.71,N-ethylation to N-desethylamiodarone,Yang et al 2019
+artemether,CYP3A4.05,5.8,2.74,2.18,O-demethylation to dihydroartemisinin,Zhang et al 2023
+artemether,CYP3A4.28,3.46,1.89,1.85,O-demethylation to dihydroartemisinin,Zhang et al 2023
+artemether,CYP3A4.34,5.75,3.33,1.75,O-demethylation to dihydroartemisinin,Zhang et al 2023
+aumolertinib,CYP3A4.01,1.866,3.204,0.583,N-demethylation to HAS-719,Ye et al 2024
+aumolertinib,CYP3A4.03,2.02,3.631,0.557,N-demethylation to HAS-719,Ye et al 2024
+aumolertinib,CYP3A4.04,1.153,3.952,0.293,N-demethylation to HAS-719,Ye et al 2024
+aumolertinib,CYP3A4.05,1.882,10.144,0.186,N-demethylation to HAS-719,Ye et al 2024
+aumolertinib,CYP3A4.07,0.377,4.937,0.077,N-demethylation to HAS-719,Ye et al 2024
+aumolertinib,CYP3A4.08,0.717,3.158,0.227,N-demethylation to HAS-719,Ye et al 2024
+aumolertinib,CYP3A4.09,1.28,4.08,0.315,N-demethylation to HAS-719,Ye et al 2024
+aumolertinib,CYP3A4.10,1.045,2.314,0.452,N-demethylation to HAS-719,Ye et al 2024
+aumolertinib,CYP3A4.12,0.318,19.773,0.016,N-demethylation to HAS-719,Ye et al 2024
+aumolertinib,CYP3A4.13,0.405,6.015,0.067,N-demethylation to HAS-719,Ye et al 2024
+aumolertinib,CYP3A4.14,0.996,3.445,0.289,N-demethylation to HAS-719,Ye et al 2024
+aumolertinib,CYP3A4.15,2.26,3.54,0.64,N-demethylation to HAS-719,Ye et al 2024
+aumolertinib,CYP3A4.16,1.382,3.013,0.46,N-demethylation to HAS-719,Ye et al 2024
+aumolertinib,CYP3A4.17,0.321,58.283,0.006,N-demethylation to HAS-719,Ye et al 2024
+aumolertinib,CYP3A4.18,0.759,5.859,0.13,N-demethylation to HAS-719,Ye et al 2024
+aumolertinib,CYP3A4.19,1.16,3.625,0.321,N-demethylation to HAS-719,Ye et al 2024
+aumolertinib,CYP3A4.23,1.163,4.085,0.286,N-demethylation to HAS-719,Ye et al 2024
+aumolertinib,CYP3A4.24,1.012,3.732,0.271,N-demethylation to HAS-719,Ye et al 2024
+aumolertinib,CYP3A4.28,1.287,2.519,0.511,N-demethylation to HAS-719,Ye et al 2024
+aumolertinib,CYP3A4.29,3.053,4.031,0.759,N-demethylation to HAS-719,Ye et al 2024
+aumolertinib,CYP3A4.31,1.129,3.213,0.356,N-demethylation to HAS-719,Ye et al 2024
+aumolertinib,CYP3A4.32,1.759,2.963,0.594,N-demethylation to HAS-719,Ye et al 2024
+aumolertinib,CYP3A4.33,1.345,3.52,0.384,N-demethylation to HAS-719,Ye et al 2024
+aumolertinib,CYP3A4.34,0.73,5.817,0.126,N-demethylation to HAS-719,Ye et al 2024
+brexpiprazole,CYP3A4.01,0.906,20.3,0.0449,S-oxidation of thiophene ring to brexpiprazole S-oxide,Chen et al 2020
+brexpiprazole,CYP3A4.02,0.198,26.9,0.0074,S-oxidation of thiophene ring to brexpiprazole S-oxide,Chen et al 2020
+brexpiprazole,CYP3A4.03,0.563,23.6,0.024,S-oxidation of thiophene ring to brexpiprazole S-oxide,Chen et al 2020
+brexpiprazole,CYP3A4.04,0.878,27.4,0.0323,S-oxidation of thiophene ring to brexpiprazole S-oxide,Chen et al 2020
+brexpiprazole,CYP3A4.05,0.502,22.4,0.0225,S-oxidation of thiophene ring to brexpiprazole S-oxide,Chen et al 2020
+brexpiprazole,CYP3A4.07,0.252,19.1,0.0132,S-oxidation of thiophene ring to brexpiprazole S-oxide,Chen et al 2020
+brexpiprazole,CYP3A4.08,0.192,23.4,0.0082,S-oxidation of thiophene ring to brexpiprazole S-oxide,Chen et al 2020
+brexpiprazole,CYP3A4.09,0.556,22.8,0.0244,S-oxidation of thiophene ring to brexpiprazole S-oxide,Chen et al 2020
+brexpiprazole,CYP3A4.10,0.731,21.6,0.034,S-oxidation of thiophene ring to brexpiprazole S-oxide,Chen et al 2020
+brexpiprazole,CYP3A4.11,0.327,19.5,0.0167,S-oxidation of thiophene ring to brexpiprazole S-oxide,Chen et al 2020
+brexpiprazole,CYP3A4.12,0.306,17.8,0.0172,S-oxidation of thiophene ring to brexpiprazole S-oxide,Chen et al 2020
+brexpiprazole,CYP3A4.13,0.382,18.1,0.0211,S-oxidation of thiophene ring to brexpiprazole S-oxide,Chen et al 2020
+brexpiprazole,CYP3A4.14,1.12,19.8,0.0573,S-oxidation of thiophene ring to brexpiprazole S-oxide,Chen et al 2020
+brexpiprazole,CYP3A4.15,0.992,18.8,0.0528,S-oxidation of thiophene ring to brexpiprazole S-oxide,Chen et al 2020
+brexpiprazole,CYP3A4.16,0.774,29.7,0.0265,S-oxidation of thiophene ring to brexpiprazole S-oxide,Chen et al 2020
+brexpiprazole,CYP3A4.17,0.0332,22.6,0.0015,S-oxidation of thiophene ring to brexpiprazole S-oxide,Chen et al 2020
+brexpiprazole,CYP3A4.18,0.639,24.9,0.0258,S-oxidation of thiophene ring to brexpiprazole S-oxide,Chen et al 2020
+brexpiprazole,CYP3A4.19,0.958,22.3,0.0433,S-oxidation of thiophene ring to brexpiprazole S-oxide,Chen et al 2020
+brexpiprazole,CYP3A4.20,0.0123,9.52,0.0013,S-oxidation of thiophene ring to brexpiprazole S-oxide,Chen et al 2020
+brexpiprazole,CYP3A4.23,0.497,20.1,0.0248,S-oxidation of thiophene ring to brexpiprazole S-oxide,Chen et al 2020
+brexpiprazole,CYP3A4.24,0.804,19.0,0.0427,S-oxidation of thiophene ring to brexpiprazole S-oxide,Chen et al 2020
+brexpiprazole,CYP3A4.28,0.702,17.1,0.0411,S-oxidation of thiophene ring to brexpiprazole S-oxide,Chen et al 2020
+brexpiprazole,CYP3A4.29,0.644,22.1,0.0294,S-oxidation of thiophene ring to brexpiprazole S-oxide,Chen et al 2020
+brexpiprazole,CYP3A4.31,0.57,20.4,0.0279,S-oxidation of thiophene ring to brexpiprazole S-oxide,Chen et al 2020
+brexpiprazole,CYP3A4.32,0.496,20.3,0.0245,S-oxidation of thiophene ring to brexpiprazole S-oxide,Chen et al 2020
+brexpiprazole,CYP3A4.33,0.624,23.6,0.0266,S-oxidation of thiophene ring to brexpiprazole S-oxide,Chen et al 2020
+brexpiprazole,CYP3A4.34,0.633,20.6,0.0308,S-oxidation of thiophene ring to brexpiprazole S-oxide,Chen et al 2020
+cyclosporine,CYP3A4.01,0.262,5.204,0.05,"hydroxylation (AM1, AM9); N-demethylation (AM4N)",Kong et al 2023
+cyclosporine,CYP3A4.02,0.427,8.958,0.048,"hydroxylation (AM1, AM9); N-demethylation (AM4N)",Kong et al 2023
+cyclosporine,CYP3A4.03,0.303,8.018,0.038,"hydroxylation (AM1, AM9); N-demethylation (AM4N)",Kong et al 2023
+cyclosporine,CYP3A4.04,0.244,6.45,0.038,"hydroxylation (AM1, AM9); N-demethylation (AM4N)",Kong et al 2023
+cyclosporine,CYP3A4.05,0.698,2.296,0.304,"hydroxylation (AM1, AM9); N-demethylation (AM4N)",Kong et al 2023
+cyclosporine,CYP3A4.07,0.264,19.03,0.014,"hydroxylation (AM1, AM9); N-demethylation (AM4N)",Kong et al 2023
+cyclosporine,CYP3A4.08,0.261,13.093,0.02,"hydroxylation (AM1, AM9); N-demethylation (AM4N)",Kong et al 2023
+cyclosporine,CYP3A4.09,0.222,6.436,0.034,"hydroxylation (AM1, AM9); N-demethylation (AM4N)",Kong et al 2023
+cyclosporine,CYP3A4.10,0.256,4.73,0.054,"hydroxylation (AM1, AM9); N-demethylation (AM4N)",Kong et al 2023
+cyclosporine,CYP3A4.12,0.277,76.76,0.004,"hydroxylation (AM1, AM9); N-demethylation (AM4N)",Kong et al 2023
+cyclosporine,CYP3A4.13,0.152,21.14,0.007,"hydroxylation (AM1, AM9); N-demethylation (AM4N)",Kong et al 2023
+cyclosporine,CYP3A4.14,0.231,8.384,0.028,"hydroxylation (AM1, AM9); N-demethylation (AM4N)",Kong et al 2023
+cyclosporine,CYP3A4.16,0.286,8.717,0.033,"hydroxylation (AM1, AM9); N-demethylation (AM4N)",Kong et al 2023
+cyclosporine,CYP3A4.18,0.163,33.6,0.005,"hydroxylation (AM1, AM9); N-demethylation (AM4N)",Kong et al 2023
+cyclosporine,CYP3A4.19,0.292,12.57,0.023,"hydroxylation (AM1, AM9); N-demethylation (AM4N)",Kong et al 2023
+cyclosporine,CYP3A4.23,0.175,17.543,0.01,"hydroxylation (AM1, AM9); N-demethylation (AM4N)",Kong et al 2023
+cyclosporine,CYP3A4.24,0.261,42.963,0.006,"hydroxylation (AM1, AM9); N-demethylation (AM4N)",Kong et al 2023
+cyclosporine,CYP3A4.28,0.295,18.953,0.016,"hydroxylation (AM1, AM9); N-demethylation (AM4N)",Kong et al 2023
+cyclosporine,CYP3A4.29,0.387,4.966,0.078,"hydroxylation (AM1, AM9); N-demethylation (AM4N)",Kong et al 2023
+cyclosporine,CYP3A4.31,0.253,22.893,0.011,"hydroxylation (AM1, AM9); N-demethylation (AM4N)",Kong et al 2023
+cyclosporine,CYP3A4.32,0.179,25.49,0.007,"hydroxylation (AM1, AM9); N-demethylation (AM4N)",Kong et al 2023
+cyclosporine,CYP3A4.33,0.206,14.4,0.014,"hydroxylation (AM1, AM9); N-demethylation (AM4N)",Kong et al 2023
+cyclosporine,CYP3A4.34,0.064,11.66,0.006,"hydroxylation (AM1, AM9); N-demethylation (AM4N)",Kong et al 2023
+ibrutinib,CYP3A4.01,0.57,11.95,0.0475,epoxidation and hydrolysis to dihydrodiol-ibrutinib,Xu et al 2018
+ibrutinib,CYP3A4.02,5.14,193.53,0.0273,epoxidation and hydrolysis to dihydrodiol-ibrutinib,Xu et al 2018
+ibrutinib,CYP3A4.03,0.88,13.3,0.0696,epoxidation and hydrolysis to dihydrodiol-ibrutinib,Xu et al 2018
+ibrutinib,CYP3A4.04,0.87,15.63,0.0562,epoxidation and hydrolysis to dihydrodiol-ibrutinib,Xu et al 2018
+ibrutinib,CYP3A4.05,2.08,54.39,0.0386,epoxidation and hydrolysis to dihydrodiol-ibrutinib,Xu et al 2018
+ibrutinib,CYP3A4.09,1.1,14.5,0.0834,epoxidation and hydrolysis to dihydrodiol-ibrutinib,Xu et al 2018
+ibrutinib,CYP3A4.10,2.19,48.52,0.0463,epoxidation and hydrolysis to dihydrodiol-ibrutinib,Xu et al 2018
+ibrutinib,CYP3A4.11,1.12,28.24,0.0405,epoxidation and hydrolysis to dihydrodiol-ibrutinib,Xu et al 2018
+ibrutinib,CYP3A4.14,0.79,28.89,0.0277,epoxidation and hydrolysis to dihydrodiol-ibrutinib,Xu et al 2018
+ibrutinib,CYP3A4.15,0.91,31.55,0.0325,epoxidation and hydrolysis to dihydrodiol-ibrutinib,Xu et al 2018
+ibrutinib,CYP3A4.16,0.58,16.11,0.0363,epoxidation and hydrolysis to dihydrodiol-ibrutinib,Xu et al 2018
+ibrutinib,CYP3A4.18,1.1,24.38,0.0451,epoxidation and hydrolysis to dihydrodiol-ibrutinib,Xu et al 2018
+ibrutinib,CYP3A4.19,1.46,12.9,0.1133,epoxidation and hydrolysis to dihydrodiol-ibrutinib,Xu et al 2018
+ibrutinib,CYP3A4.23,1.02,18.16,0.0655,epoxidation and hydrolysis to dihydrodiol-ibrutinib,Xu et al 2018
+ibrutinib,CYP3A4.28,0.73,38.5,0.0189,epoxidation and hydrolysis to dihydrodiol-ibrutinib,Xu et al 2018
+ibrutinib,CYP3A4.29,0.73,34.16,0.0223,epoxidation and hydrolysis to dihydrodiol-ibrutinib,Xu et al 2018
+ibrutinib,CYP3A4.31,0.65,22.33,0.029,epoxidation and hydrolysis to dihydrodiol-ibrutinib,Xu et al 2018
+ibrutinib,CYP3A4.32,0.95,34.13,0.0286,epoxidation and hydrolysis to dihydrodiol-ibrutinib,Xu et al 2018
+ibrutinib,CYP3A4.33,1.26,27.07,0.0466,epoxidation and hydrolysis to dihydrodiol-ibrutinib,Xu et al 2018
+ibrutinib,CYP3A4.34,1.11,8.01,0.1384,epoxidation and hydrolysis to dihydrodiol-ibrutinib,Xu et al 2018
+istradefylline,CYP3A4.01,3.926,7.171,0.548,4'-O-demethylation to 4'-O-demethl istradefylline,Hu et al 2022
+istradefylline,CYP3A4.03,3.004,6.121,0.497,4'-O-demethylation to 4'-O-demethl istradefylline,Hu et al 2022
+istradefylline,CYP3A4.04,3.246,19.45,0.171,4'-O-demethylation to 4'-O-demethl istradefylline,Hu et al 2022
+istradefylline,CYP3A4.07,1.653,24.04,0.069,4'-O-demethylation to 4'-O-demethl istradefylline,Hu et al 2022
+istradefylline,CYP3A4.09,1.116,6.409,0.175,4'-O-demethylation to 4'-O-demethl istradefylline,Hu et al 2022
+istradefylline,CYP3A4.10,1.301,8.57,0.153,4'-O-demethylation to 4'-O-demethl istradefylline,Hu et al 2022
+istradefylline,CYP3A4.11,1.043,17.533,0.06,4'-O-demethylation to 4'-O-demethl istradefylline,Hu et al 2022
+istradefylline,CYP3A4.12,0.6,9.647,0.062,4'-O-demethylation to 4'-O-demethl istradefylline,Hu et al 2022
+istradefylline,CYP3A4.13,0.536,5.085,0.107,4'-O-demethylation to 4'-O-demethl istradefylline,Hu et al 2022
+istradefylline,CYP3A4.16,0.632,8.925,0.071,4'-O-demethylation to 4'-O-demethl istradefylline,Hu et al 2022
+istradefylline,CYP3A4.17,0.104,12.847,1.489,4'-O-demethylation to 4'-O-demethl istradefylline,Hu et al 2022
+istradefylline,CYP3A4.19,1.069,5.537,0.197,4'-O-demethylation to 4'-O-demethl istradefylline,Hu et al 2022
+istradefylline,CYP3A4.24,1.144,6.486,0.176,4'-O-demethylation to 4'-O-demethl istradefylline,Hu et al 2022
+istradefylline,CYP3A4.28,1.787,8.451,0.213,4'-O-demethylation to 4'-O-demethl istradefylline,Hu et al 2022
+istradefylline,CYP3A4.29,4.696,6.03,0.781,4'-O-demethylation to 4'-O-demethl istradefylline,Hu et al 2022
+istradefylline,CYP3A4.32,5.102,15.527,0.337,4'-O-demethylation to 4'-O-demethl istradefylline,Hu et al 2022
+istradefylline,CYP3A4.33,2.711,13.903,0.195,4'-O-demethylation to 4'-O-demethl istradefylline,Hu et al 2022
+istradefylline,CYP3A4.34,1.838,8.984,0.205,4'-O-demethylation to 4'-O-demethl istradefylline,Hu et al 2022
+loperamide,CYP3A4.01,2.079,2.196,0.951,N-demethylation to N-desmethyl loperamide,Lin et al 2019 2809
+loperamide,CYP3A4.02,0.568,8.023,0.071,N-demethylation to N-desmethyl loperamide,Lin et al 2019 2809
+loperamide,CYP3A4.03,1.777,5.53,0.322,N-demethylation to N-desmethyl loperamide,Lin et al 2019 2809
+loperamide,CYP3A4.04,1.467,3.293,0.446,N-demethylation to N-desmethyl loperamide,Lin et al 2019 2809
+loperamide,CYP3A4.05,2.153,4.804,0.448,N-demethylation to N-desmethyl loperamide,Lin et al 2019 2809
+loperamide,CYP3A4.07,3.259,8.849,0.368,N-demethylation to N-desmethyl loperamide,Lin et al 2019 2809
+loperamide,CYP3A4.08,5.302,7.828,0.682,N-demethylation to N-desmethyl loperamide,Lin et al 2019 2809
+loperamide,CYP3A4.09,0.371,2.884,0.129,N-demethylation to N-desmethyl loperamide,Lin et al 2019 2809
+loperamide,CYP3A4.10,1.18,2.5,0.472,N-demethylation to N-desmethyl loperamide,Lin et al 2019 2809
+loperamide,CYP3A4.11,2.854,17.163,0.166,N-demethylation to N-desmethyl loperamide,Lin et al 2019 2809
+loperamide,CYP3A4.12,0.969,4.016,0.242,N-demethylation to N-desmethyl loperamide,Lin et al 2019 2809
+loperamide,CYP3A4.13,0.651,5.812,0.112,N-demethylation to N-desmethyl loperamide,Lin et al 2019 2809
+loperamide,CYP3A4.14,4.862,10.494,0.464,N-demethylation to N-desmethyl loperamide,Lin et al 2019 2809
+loperamide,CYP3A4.15,1.074,3.423,0.315,N-demethylation to N-desmethyl loperamide,Lin et al 2019 2809
+loperamide,CYP3A4.16,10.703,15.55,0.69,N-demethylation to N-desmethyl loperamide,Lin et al 2019 2809
+loperamide,CYP3A4.18,9.223,11.567,0.798,N-demethylation to N-desmethyl loperamide,Lin et al 2019 2809
+loperamide,CYP3A4.19,0.914,2.234,0.416,N-demethylation to N-desmethyl loperamide,Lin et al 2019 2809
+loperamide,CYP3A4.23,0.434,5.331,0.082,N-demethylation to N-desmethyl loperamide,Lin et al 2019 2809
+loperamide,CYP3A4.24,0.209,1.329,0.157,N-demethylation to N-desmethyl loperamide,Lin et al 2019 2809
+loperamide,CYP3A4.28,1.23,2.356,0.524,N-demethylation to N-desmethyl loperamide,Lin et al 2019 2809
+loperamide,CYP3A4.29,1.327,3.356,0.395,N-demethylation to N-desmethyl loperamide,Lin et al 2019 2809
+loperamide,CYP3A4.31,0.834,2.9,0.288,N-demethylation to N-desmethyl loperamide,Lin et al 2019 2809
+loperamide,CYP3A4.32,0.553,3.568,0.155,N-demethylation to N-desmethyl loperamide,Lin et al 2019 2809
+loperamide,CYP3A4.33,0.851,4.849,0.176,N-demethylation to N-desmethyl loperamide,Lin et al 2019 2809
+loperamide,CYP3A4.34,0.626,1.902,0.329,N-demethylation to N-desmethyl loperamide,Lin et al 2019 2809
+lumefantrine,CYP3A4.14,0.26,32.42,0.81,N-dealkylation to desbutyl-lumefantrine,Zhang et al 2023
+lumefantrine,CYP3A4.24,0.33,30.13,1.07,N-dealkylation to desbutyl-lumefantrine,Zhang et al 2023
+lurasidone,CYP3A4.01,2.17,10.79,0.21,hydroxylation of norbornane ring to ID-14283 and N-dealkylation to ID-14326,Li et al 2023
+lurasidone,CYP3A4.03,1.25,3.51,0.36,hydroxylation of norbornane ring to ID-14283 and N-dealkylation to ID-14326,Li et al 2023
+lurasidone,CYP3A4.04,0.77,2.37,0.33,hydroxylation of norbornane ring to ID-14283 and N-dealkylation to ID-14326,Li et al 2023
+lurasidone,CYP3A4.05,1.1,5.92,0.2,hydroxylation of norbornane ring to ID-14283 and N-dealkylation to ID-14326,Li et al 2023
+lurasidone,CYP3A4.07,0.28,2.11,0.14,hydroxylation of norbornane ring to ID-14283 and N-dealkylation to ID-14326,Li et al 2023
+lurasidone,CYP3A4.09,1.23,4.56,0.27,hydroxylation of norbornane ring to ID-14283 and N-dealkylation to ID-14326,Li et al 2023
+lurasidone,CYP3A4.10,1.13,3.93,0.29,hydroxylation of norbornane ring to ID-14283 and N-dealkylation to ID-14326,Li et al 2023
+lurasidone,CYP3A4.12,0.17,6.01,0.03,hydroxylation of norbornane ring to ID-14283 and N-dealkylation to ID-14326,Li et al 2023
+lurasidone,CYP3A4.13,0.38,2.92,0.13,hydroxylation of norbornane ring to ID-14283 and N-dealkylation to ID-14326,Li et al 2023
+lurasidone,CYP3A4.14,1.58,4.44,0.37,hydroxylation of norbornane ring to ID-14283 and N-dealkylation to ID-14326,Li et al 2023
+lurasidone,CYP3A4.15,2.83,3.88,0.73,hydroxylation of norbornane ring to ID-14283 and N-dealkylation to ID-14326,Li et al 2023
+lurasidone,CYP3A4.19,1.72,2.89,0.65,hydroxylation of norbornane ring to ID-14283 and N-dealkylation to ID-14326,Li et al 2023
+lurasidone,CYP3A4.20,0.1,2.14,0.05,hydroxylation of norbornane ring to ID-14283 and N-dealkylation to ID-14326,Li et al 2023
+lurasidone,CYP3A4.23,1.44,2.82,0.51,hydroxylation of norbornane ring to ID-14283 and N-dealkylation to ID-14326,Li et al 2023
+lurasidone,CYP3A4.24,0.9,1.58,0.58,hydroxylation of norbornane ring to ID-14283 and N-dealkylation to ID-14326,Li et al 2023
+lurasidone,CYP3A4.28,1.19,2.45,0.52,hydroxylation of norbornane ring to ID-14283 and N-dealkylation to ID-14326,Li et al 2023
+lurasidone,CYP3A4.29,3.26,5.52,0.6,hydroxylation of norbornane ring to ID-14283 and N-dealkylation to ID-14326,Li et al 2023
+lurasidone,CYP3A4.31,0.95,3.31,0.29,hydroxylation of norbornane ring to ID-14283 and N-dealkylation to ID-14326,Li et al 2023
+lurasidone,CYP3A4.32,1.41,3.79,0.38,hydroxylation of norbornane ring to ID-14283 and N-dealkylation to ID-14326,Li et al 2023
+lurasidone,CYP3A4.33,2.0,4.19,0.48,hydroxylation of norbornane ring to ID-14283 and N-dealkylation to ID-14326,Li et al 2023
+lurasidone,CYP3A4.34,0.73,3.22,0.23,hydroxylation of norbornane ring to ID-14283 and N-dealkylation to ID-14326,Li et al 2023
+macitentan,CYP3A4.01,6.48,108.0,0.06,N-depropylation of sulfanimde to ACT-132577,Li et al 2019 1677
+macitentan,CYP3A4.02,4.86,61.71,0.08,N-depropylation of sulfanimde to ACT-132577,Li et al 2019 1677
+macitentan,CYP3A4.03,8.48,68.24,0.13,N-depropylation of sulfanimde to ACT-132577,Li et al 2019 1677
+macitentan,CYP3A4.04,7.72,84.42,0.09,N-depropylation of sulfanimde to ACT-132577,Li et al 2019 1677
+macitentan,CYP3A4.05,9.39,31.29,0.3,N-depropylation of sulfanimde to ACT-132577,Li et al 2019 1677
+macitentan,CYP3A4.07,3.45,88.56,0.04,N-depropylation of sulfanimde to ACT-132577,Li et al 2019 1677
+macitentan,CYP3A4.08,2.65,43.36,0.06,N-depropylation of sulfanimde to ACT-132577,Li et al 2019 1677
+macitentan,CYP3A4.09,6.45,337.07,0.02,N-depropylation of sulfanimde to ACT-132577,Li et al 2019 1677
+macitentan,CYP3A4.10,10.22,69.2,0.15,N-depropylation of sulfanimde to ACT-132577,Li et al 2019 1677
+macitentan,CYP3A4.11,4.7,192.4,0.02,N-depropylation of sulfanimde to ACT-132577,Li et al 2019 1677
+macitentan,CYP3A4.12,4.42,318.3,0.01,N-depropylation of sulfanimde to ACT-132577,Li et al 2019 1677
+macitentan,CYP3A4.13,7.32,290.13,0.03,N-depropylation of sulfanimde to ACT-132577,Li et al 2019 1677
+macitentan,CYP3A4.14,9.33,170.1,0.05,N-depropylation of sulfanimde to ACT-132577,Li et al 2019 1677
+macitentan,CYP3A4.15,15.63,119.4,0.13,N-depropylation of sulfanimde to ACT-132577,Li et al 2019 1677
+macitentan,CYP3A4.16,9.03,83.45,0.11,N-depropylation of sulfanimde to ACT-132577,Li et al 2019 1677
+macitentan,CYP3A4.17,2.79,450.03,0.01,N-depropylation of sulfanimde to ACT-132577,Li et al 2019 1677
+macitentan,CYP3A4.18,7.13,149.23,0.05,N-depropylation of sulfanimde to ACT-132577,Li et al 2019 1677
+macitentan,CYP3A4.19,11.51,156.9,0.07,N-depropylation of sulfanimde to ACT-132577,Li et al 2019 1677
+macitentan,CYP3A4.20,10.02,3015.67,0.0,N-depropylation of sulfanimde to ACT-132577,Li et al 2019 1677
+macitentan,CYP3A4.23,3.8,494.73,0.01,N-depropylation of sulfanimde to ACT-132577,Li et al 2019 1677
+macitentan,CYP3A4.24,5.06,276.1,0.02,N-depropylation of sulfanimde to ACT-132577,Li et al 2019 1677
+macitentan,CYP3A4.28,5.1,178.9,0.03,N-depropylation of sulfanimde to ACT-132577,Li et al 2019 1677
+macitentan,CYP3A4.29,4.35,141.63,0.03,N-depropylation of sulfanimde to ACT-132577,Li et al 2019 1677
+macitentan,CYP3A4.31,4.41,131.3,0.04,N-depropylation of sulfanimde to ACT-132577,Li et al 2019 1677
+macitentan,CYP3A4.32,6.25,135.73,0.05,N-depropylation of sulfanimde to ACT-132577,Li et al 2019 1677
+macitentan,CYP3A4.33,6.42,241.1,0.03,N-depropylation of sulfanimde to ACT-132577,Li et al 2019 1677
+macitentan,CYP3A4.34,4.63,249.0,0.02,N-depropylation of sulfanimde to ACT-132577,Li et al 2019 1677
+midostaurin,CYP3A4.07,0.809,0.473,1.763,O-demethylation to CGP62221 and 7-hydroxylation to CGP52421,Xu et al 2023
+midostaurin,CYP3A4.08,0.376,0.155,2.485,O-demethylation to CGP62221 and 7-hydroxylation to CGP52421,Xu et al 2023
+midostaurin,CYP3A4.12,0.495,0.381,1.306,O-demethylation to CGP62221 and 7-hydroxylation to CGP52421,Xu et al 2023
+midostaurin,CYP3A4.17,0.214,0.475,0.463,O-demethylation to CGP62221 and 7-hydroxylation to CGP52421,Xu et al 2023
+midostaurin,CYP3A4.20,0.198,0.409,0.546,O-demethylation to CGP62221 and 7-hydroxylation to CGP52421,Xu et al 2023
+osimertinib,CYP3A4.01,4.839,27.89,0.174,N-demethylation of 2 different substituents to AZ5104 and AZ7550,Gao et al 2022
+osimertinib,CYP3A4.02,6.348,75.62,0.084,N-demethylation of 2 different substituents to AZ5104 and AZ7550,Gao et al 2022
+osimertinib,CYP3A4.03,4.343,21.83,0.199,N-demethylation of 2 different substituents to AZ5104 and AZ7550,Gao et al 2022
+osimertinib,CYP3A4.04,4.285,23.97,0.179,N-demethylation of 2 different substituents to AZ5104 and AZ7550,Gao et al 2022
+osimertinib,CYP3A4.05,5.327,53.797,0.099,N-demethylation of 2 different substituents to AZ5104 and AZ7550,Gao et al 2022
+osimertinib,CYP3A4.07,6.442,86.803,0.074,N-demethylation of 2 different substituents to AZ5104 and AZ7550,Gao et al 2022
+osimertinib,CYP3A4.08,8.53,119.533,0.071,N-demethylation of 2 different substituents to AZ5104 and AZ7550,Gao et al 2022
+osimertinib,CYP3A4.09,4.189,22.643,0.185,N-demethylation of 2 different substituents to AZ5104 and AZ7550,Gao et al 2022
+osimertinib,CYP3A4.10,3.821,31.79,0.12,N-demethylation of 2 different substituents to AZ5104 and AZ7550,Gao et al 2022
+osimertinib,CYP3A4.11,4.005,45.783,0.087,N-demethylation of 2 different substituents to AZ5104 and AZ7550,Gao et al 2022
+osimertinib,CYP3A4.12,4.084,51.8,0.079,N-demethylation of 2 different substituents to AZ5104 and AZ7550,Gao et al 2022
+osimertinib,CYP3A4.13,3.338,40.583,0.082,N-demethylation of 2 different substituents to AZ5104 and AZ7550,Gao et al 2022
+osimertinib,CYP3A4.14,3.888,42.72,0.091,N-demethylation of 2 different substituents to AZ5104 and AZ7550,Gao et al 2022
+osimertinib,CYP3A4.15,4.998,20.77,0.241,N-demethylation of 2 different substituents to AZ5104 and AZ7550,Gao et al 2022
+osimertinib,CYP3A4.16,5.909,60.857,0.097,N-demethylation of 2 different substituents to AZ5104 and AZ7550,Gao et al 2022
+osimertinib,CYP3A4.17,7.3,163.0,0.045,N-demethylation of 2 different substituents to AZ5104 and AZ7550,Gao et al 2022
+osimertinib,CYP3A4.18,5.075,47.75,0.106,N-demethylation of 2 different substituents to AZ5104 and AZ7550,Gao et al 2022
+osimertinib,CYP3A4.19,4.245,28.183,0.151,N-demethylation of 2 different substituents to AZ5104 and AZ7550,Gao et al 2022
+osimertinib,CYP3A4.23,4.642,24.557,0.189,N-demethylation of 2 different substituents to AZ5104 and AZ7550,Gao et al 2022
+osimertinib,CYP3A4.24,4.918,32.283,0.154,N-demethylation of 2 different substituents to AZ5104 and AZ7550,Gao et al 2022
+osimertinib,CYP3A4.28,5.597,22.807,0.245,N-demethylation of 2 different substituents to AZ5104 and AZ7550,Gao et al 2022
+osimertinib,CYP3A4.29,5.968,12.033,0.496,N-demethylation of 2 different substituents to AZ5104 and AZ7550,Gao et al 2022
+osimertinib,CYP3A4.31,3.967,21.34,0.186,N-demethylation of 2 different substituents to AZ5104 and AZ7550,Gao et al 2022
+osimertinib,CYP3A4.32,8.841,22.28,0.397,N-demethylation of 2 different substituents to AZ5104 and AZ7550,Gao et al 2022
+osimertinib,CYP3A4.33,8.34,21.413,0.389,N-demethylation of 2 different substituents to AZ5104 and AZ7550,Gao et al 2022
+osimertinib,CYP3A4.34,7.266,34.657,0.21,N-demethylation of 2 different substituents to AZ5104 and AZ7550,Gao et al 2022
+oxycodone,CYP3A4.01,16.31,627.77,0.026,N-demthylation to noroxycodone,Cai et al 2021
+oxycodone,CYP3A4.02,5.02,1582.33,0.0032,N-demthylation to noroxycodone,Cai et al 2021
+oxycodone,CYP3A4.03,7.01,415.73,0.017,N-demthylation to noroxycodone,Cai et al 2021
+oxycodone,CYP3A4.04,11.46,569.63,0.0202,N-demthylation to noroxycodone,Cai et al 2021
+oxycodone,CYP3A4.05,8.65,1011.7,0.0087,N-demthylation to noroxycodone,Cai et al 2021
+oxycodone,CYP3A4.07,3.86,592.0,0.0065,N-demthylation to noroxycodone,Cai et al 2021
+oxycodone,CYP3A4.08,4.29,2144.33,0.0021,N-demthylation to noroxycodone,Cai et al 2021
+oxycodone,CYP3A4.09,6.96,944.23,0.0074,N-demthylation to noroxycodone,Cai et al 2021
+oxycodone,CYP3A4.10,11.07,1034.17,0.0107,N-demthylation to noroxycodone,Cai et al 2021
+oxycodone,CYP3A4.11,3.79,1684.67,0.0023,N-demthylation to noroxycodone,Cai et al 2021
+oxycodone,CYP3A4.12,2.83,2279.33,0.0013,N-demthylation to noroxycodone,Cai et al 2021
+oxycodone,CYP3A4.13,6.13,1078.6,0.0057,N-demthylation to noroxycodone,Cai et al 2021
+oxycodone,CYP3A4.14,13.3,638.37,0.0209,N-demthylation to noroxycodone,Cai et al 2021
+oxycodone,CYP3A4.15,13.82,923.2,0.015,N-demthylation to noroxycodone,Cai et al 2021
+oxycodone,CYP3A4.16,5.69,899.63,0.0063,N-demthylation to noroxycodone,Cai et al 2021
+oxycodone,CYP3A4.18,10.12,758.5,0.0134,N-demthylation to noroxycodone,Cai et al 2021
+oxycodone,CYP3A4.19,13.85,760.47,0.0182,N-demthylation to noroxycodone,Cai et al 2021
+oxycodone,CYP3A4.23,5.15,927.03,0.0057,N-demthylation to noroxycodone,Cai et al 2021
+oxycodone,CYP3A4.24,8.37,677.9,0.0124,N-demthylation to noroxycodone,Cai et al 2021
+oxycodone,CYP3A4.28,12.46,653.97,0.0192,N-demthylation to noroxycodone,Cai et al 2021
+oxycodone,CYP3A4.29,14.18,686.27,0.0207,N-demthylation to noroxycodone,Cai et al 2021
+oxycodone,CYP3A4.31,12.71,650.37,0.0198,N-demthylation to noroxycodone,Cai et al 2021
+oxycodone,CYP3A4.32,7.89,693.6,0.0114,N-demthylation to noroxycodone,Cai et al 2021
+oxycodone,CYP3A4.33,6.56,628.83,0.0105,N-demthylation to noroxycodone,Cai et al 2021
+oxycodone,CYP3A4.34,5.9,673.83,0.0088,N-demthylation to noroxycodone,Cai et al 2021
+regorafenib,CYP3A4.01,2.1,1.79,1.17,N-oxidation to regorafenib N-oxide and N-demethylation to N-desmethyl regorafenib,Li et al 2019 337
+regorafenib,CYP3A4.02,0.39,8.81,0.04,N-oxidation to regorafenib N-oxide and N-demethylation to N-desmethyl regorafenib,Li et al 2019 337
+regorafenib,CYP3A4.03,1.26,1.53,0.83,N-oxidation to regorafenib N-oxide and N-demethylation to N-desmethyl regorafenib,Li et al 2019 337
+regorafenib,CYP3A4.04,2.26,3.42,0.66,N-oxidation to regorafenib N-oxide and N-demethylation to N-desmethyl regorafenib,Li et al 2019 337
+regorafenib,CYP3A4.05,5.5,4.37,1.27,N-oxidation to regorafenib N-oxide and N-demethylation to N-desmethyl regorafenib,Li et al 2019 337
+regorafenib,CYP3A4.07,1.33,7.53,0.18,N-oxidation to regorafenib N-oxide and N-demethylation to N-desmethyl regorafenib,Li et al 2019 337
+regorafenib,CYP3A4.08,0.39,3.9,0.1,N-oxidation to regorafenib N-oxide and N-demethylation to N-desmethyl regorafenib,Li et al 2019 337
+regorafenib,CYP3A4.09,1.17,1.68,0.74,N-oxidation to regorafenib N-oxide and N-demethylation to N-desmethyl regorafenib,Li et al 2019 337
+regorafenib,CYP3A4.10,1.97,2.28,0.87,N-oxidation to regorafenib N-oxide and N-demethylation to N-desmethyl regorafenib,Li et al 2019 337
+regorafenib,CYP3A4.11,0.79,5.93,0.14,N-oxidation to regorafenib N-oxide and N-demethylation to N-desmethyl regorafenib,Li et al 2019 337
+regorafenib,CYP3A4.12,2.89,27.29,0.11,N-oxidation to regorafenib N-oxide and N-demethylation to N-desmethyl regorafenib,Li et al 2019 337
+regorafenib,CYP3A4.13,1.07,4.62,0.24,N-oxidation to regorafenib N-oxide and N-demethylation to N-desmethyl regorafenib,Li et al 2019 337
+regorafenib,CYP3A4.14,3.19,1.6,2.0,N-oxidation to regorafenib N-oxide and N-demethylation to N-desmethyl regorafenib,Li et al 2019 337
+regorafenib,CYP3A4.15,2.21,1.53,1.44,N-oxidation to regorafenib N-oxide and N-demethylation to N-desmethyl regorafenib,Li et al 2019 337
+regorafenib,CYP3A4.16,1.84,1.59,1.16,N-oxidation to regorafenib N-oxide and N-demethylation to N-desmethyl regorafenib,Li et al 2019 337
+regorafenib,CYP3A4.17,0.73,23.13,0.04,N-oxidation to regorafenib N-oxide and N-demethylation to N-desmethyl regorafenib,Li et al 2019 337
+regorafenib,CYP3A4.18,1.57,2.87,0.55,N-oxidation to regorafenib N-oxide and N-demethylation to N-desmethyl regorafenib,Li et al 2019 337
+regorafenib,CYP3A4.19,1.52,1.48,1.03,N-oxidation to regorafenib N-oxide and N-demethylation to N-desmethyl regorafenib,Li et al 2019 337
+regorafenib,CYP3A4.23,0.56,1.19,0.47,N-oxidation to regorafenib N-oxide and N-demethylation to N-desmethyl regorafenib,Li et al 2019 337
+regorafenib,CYP3A4.24,1.03,0.94,1.1,N-oxidation to regorafenib N-oxide and N-demethylation to N-desmethyl regorafenib,Li et al 2019 337
+regorafenib,CYP3A4.28,2.78,1.8,1.54,N-oxidation to regorafenib N-oxide and N-demethylation to N-desmethyl regorafenib,Li et al 2019 337
+regorafenib,CYP3A4.29,2.02,1.92,1.05,N-oxidation to regorafenib N-oxide and N-demethylation to N-desmethyl regorafenib,Li et al 2019 337
+regorafenib,CYP3A4.31,1.5,1.01,1.49,N-oxidation to regorafenib N-oxide and N-demethylation to N-desmethyl regorafenib,Li et al 2019 337
+regorafenib,CYP3A4.32,0.81,0.89,0.92,N-oxidation to regorafenib N-oxide and N-demethylation to N-desmethyl regorafenib,Li et al 2019 337
+regorafenib,CYP3A4.33,1.93,1.94,1.0,N-oxidation to regorafenib N-oxide and N-demethylation to N-desmethyl regorafenib,Li et al 2019 337
+regorafenib,CYP3A4.34,1.24,2.55,0.5,N-oxidation to regorafenib N-oxide and N-demethylation to N-desmethyl regorafenib,Li et al 2019 337
+saxagliptan,CYP3A4.12,4.25,3017.0,1.41,5-hydroxylation to 5-hydroxy saxagliptin,Liu et al 2022
+saxagliptan,CYP3A4.17,5.74,5452.0,1.05,5-hydroxylation to 5-hydroxy saxagliptin,Liu et al 2022
+saxagliptan,CYP3A4.20,13.54,18835.67,0.72,5-hydroxylation to 5-hydroxy saxagliptin,Liu et al 2022
+sildenafil,CYP3A4.01,9.29,64.02,0.15,N-demethylation to N-desmethyl sildenafil,Tang et al 2020
+sildenafil,CYP3A4.02,13.39,169.77,0.08,N-demethylation to N-desmethyl sildenafil,Tang et al 2020
+sildenafil,CYP3A4.03,10.68,56.99,0.19,N-demethylation to N-desmethyl sildenafil,Tang et al 2020
+sildenafil,CYP3A4.04,10.91,71.13,0.15,N-demethylation to N-desmethyl sildenafil,Tang et al 2020
+sildenafil,CYP3A4.05,6.01,147.87,0.04,N-demethylation to N-desmethyl sildenafil,Tang et al 2020
+sildenafil,CYP3A4.09,10.82,85.07,0.13,N-demethylation to N-desmethyl sildenafil,Tang et al 2020
+sildenafil,CYP3A4.10,12.88,67.05,0.19,N-demethylation to N-desmethyl sildenafil,Tang et al 2020
+sildenafil,CYP3A4.14,9.87,53.13,0.19,N-demethylation to N-desmethyl sildenafil,Tang et al 2020
+sildenafil,CYP3A4.15,10.06,62.29,0.16,N-demethylation to N-desmethyl sildenafil,Tang et al 2020
+sildenafil,CYP3A4.19,10.65,62.22,0.17,N-demethylation to N-desmethyl sildenafil,Tang et al 2020
+sildenafil,CYP3A4.23,11.33,76.1,0.15,N-demethylation to N-desmethyl sildenafil,Tang et al 2020
+sildenafil,CYP3A4.24,3.36,1317.67,0.0,N-demethylation to N-desmethyl sildenafil,Tang et al 2020
+sildenafil,CYP3A4.28,5.91,68.89,0.09,N-demethylation to N-desmethyl sildenafil,Tang et al 2020
+sildenafil,CYP3A4.29,9.18,86.9,0.11,N-demethylation to N-desmethyl sildenafil,Tang et al 2020
+sildenafil,CYP3A4.31,7.49,51.67,0.15,N-demethylation to N-desmethyl sildenafil,Tang et al 2020
+sildenafil,CYP3A4.32,13.2,69.34,0.19,N-demethylation to N-desmethyl sildenafil,Tang et al 2020
+sildenafil,CYP3A4.33,10.45,60.64,0.17,N-demethylation to N-desmethyl sildenafil,Tang et al 2020
+sildenafil,CYP3A4.34,11.78,77.36,0.15,N-demethylation to N-desmethyl sildenafil,Tang et al 2020
+vandetanib,CYP3A4.01,4.6,324.57,0.01,N-demethylation to N-desmethyl vandetanib,Han et al 2021 709700
+vandetanib,CYP3A4.02,3.9,204.6,0.02,N-demethylation to N-desmethyl vandetanib,Han et al 2021 709700
+vandetanib,CYP3A4.03,3.42,119.87,0.03,N-demethylation to N-desmethyl vandetanib,Han et al 2021 709700
+vandetanib,CYP3A4.04,4.94,363.93,0.01,N-demethylation to N-desmethyl vandetanib,Han et al 2021 709700
+vandetanib,CYP3A4.05,4.86,378.47,0.01,N-demethylation to N-desmethyl vandetanib,Han et al 2021 709700
+vandetanib,CYP3A4.07,10.51,1892.67,0.01,N-demethylation to N-desmethyl vandetanib,Han et al 2021 709700
+vandetanib,CYP3A4.08,9.64,1572.0,0.01,N-demethylation to N-desmethyl vandetanib,Han et al 2021 709700
+vandetanib,CYP3A4.09,4.13,263.7,0.02,N-demethylation to N-desmethyl vandetanib,Han et al 2021 709700
+vandetanib,CYP3A4.10,5.4,492.3,0.01,N-demethylation to N-desmethyl vandetanib,Han et al 2021 709700
+vandetanib,CYP3A4.11,7.64,1247.67,0.01,N-demethylation to N-desmethyl vandetanib,Han et al 2021 709700
+vandetanib,CYP3A4.12,9.02,1481.0,0.01,N-demethylation to N-desmethyl vandetanib,Han et al 2021 709700
+vandetanib,CYP3A4.13,8.39,1336.33,0.01,N-demethylation to N-desmethyl vandetanib,Han et al 2021 709700
+vandetanib,CYP3A4.14,4.56,338.0,0.01,N-demethylation to N-desmethyl vandetanib,Han et al 2021 709700
+vandetanib,CYP3A4.15,3.26,50.26,0.07,N-demethylation to N-desmethyl vandetanib,Han et al 2021 709700
+vandetanib,CYP3A4.16,3.77,175.93,0.02,N-demethylation to N-desmethyl vandetanib,Han et al 2021 709700
+vandetanib,CYP3A4.17,9.18,1666.67,0.01,N-demethylation to N-desmethyl vandetanib,Han et al 2021 709700
+vandetanib,CYP3A4.18,4.18,673.1,0.01,N-demethylation to N-desmethyl vandetanib,Han et al 2021 709700
+vandetanib,CYP3A4.19,5.47,660.83,0.01,N-demethylation to N-desmethyl vandetanib,Han et al 2021 709700
+vandetanib,CYP3A4.20,11.88,2333.33,0.01,N-demethylation to N-desmethyl vandetanib,Han et al 2021 709700
+vandetanib,CYP3A4.23,5.55,645.87,0.01,N-demethylation to N-desmethyl vandetanib,Han et al 2021 709700
+vandetanib,CYP3A4.24,5.11,497.07,0.01,N-demethylation to N-desmethyl vandetanib,Han et al 2021 709700
+vandetanib,CYP3A4.28,4.57,343.33,0.01,N-demethylation to N-desmethyl vandetanib,Han et al 2021 709700
+vandetanib,CYP3A4.29,3.56,98.71,0.04,N-demethylation to N-desmethyl vandetanib,Han et al 2021 709700
+vandetanib,CYP3A4.31,4.63,359.93,0.01,N-demethylation to N-desmethyl vandetanib,Han et al 2021 709700
+vandetanib,CYP3A4.32,4.09,241.2,0.02,N-demethylation to N-desmethyl vandetanib,Han et al 2021 709700
+vandetanib,CYP3A4.33,4.15,236.97,0.02,N-demethylation to N-desmethyl vandetanib,Han et al 2021 709700
+vandetanib,CYP3A4.34,5.02,455.17,0.01,N-demethylation to N-desmethyl vandetanib,Han et al 2021 709700
