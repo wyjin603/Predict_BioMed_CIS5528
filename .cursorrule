@@ -1,0 +1,58 @@
+# .cursorrules
+# ============================
+# Python ML Project Guidelines
+# ============================
+# Language & Version:
+- Use Python 3.10+ exclusively.
+
+# Library Stack:
+- Import and use the following libraries:
+  - numpy
+  - pandas
+  - scikit-learn
+  - PyTorch
+  - matplotlib or Plotly for visualization
+  - logging (with a Rich handler, if available)
+  - pytest for testing
+  - others to be added as needed
+
+# Code Style & Documentation:
+- Follow PEP 8 guidelines for code style.
+- Include comprehensive type annotations in every function, method, and class.
+- Write Google-style docstrings for all functions, methods, and classes.
+- Use explicit, descriptive variable names.
+- Use early returns for clarity and to simplify logic.
+
+# Project Structure & Modularity:
+- Organize code into clear modules:
+  - data_processing.py (data loading and preprocessing)
+  - model.py (model definition and architecture)
+  - train.py (training routines and hyperparameter tuning)
+  - evaluate.py (model evaluation and metrics computation)
+- Keep functions focused on a single responsibility.
+
+# Machine Learning Best Practices:
+- For data processing, ensure you:
+  - Validate and clean data using pandas.
+  - Split data properly into training, validation, and test sets.
+- For model development:
+  - Use scikit-learn for classical ML algorithms.
+  - Use PyTorch for deep learning models, with proper GPU utilization.
+  - Include error handling and logging for model training.
+- Write unit tests for critical functions using pytest.
+
+# Performance & Experimentation:
+- Optimize performance by:
+  - Using vectorized operations with numpy and pandas.
+  - Profiling code to identify bottlenecks.
+- Ensure reproducibility by:
+  - Setting random seeds.
+  - Logging experiment configurations (consider using mlflow or similar).
+
+# Additional Instructions:
+- When generating code, always:
+  - Include clear inline comments explaining key steps.
+  - Use modular design so that code is reusable and maintainable.
+  - Provide usage examples where applicable.
+
+# End of .cursorrules file
