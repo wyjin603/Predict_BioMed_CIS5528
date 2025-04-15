@@ -1,0 +1,202 @@
+import torch
+import torch.nn as nn
+import math
+
+# (MultiHeadAttention, PositionWiseFeedForward, PositionalEncoding remain the same)
+class MultiHeadAttention(nn.Module):
+    def __init__(self, embed_dim, num_heads):
+        super().__init__()
+        self.embed_dim = embed_dim
+        self.num_heads = num_heads
+        self.head_dim = embed_dim // num_heads
+
+        assert self.head_dim * num_heads == embed_dim, "embed_dim must be divisible by num_heads"
+
+        self.q_linear = nn.Linear(embed_dim, embed_dim)
+        self.k_linear = nn.Linear(embed_dim, embed_dim)
+        self.v_linear = nn.Linear(embed_dim, embed_dim)
+        self.out_proj = nn.Linear(embed_dim, embed_dim)
+
+    def _scaled_dot_product_attention(self, query, key, value, mask=None):
+        d_k = query.size(-1)
+        attn_scores = torch.matmul(query, key.transpose(-2, -1)) / math.sqrt(d_k)
+        if mask is not None:
+            attn_scores = attn_scores.masked_fill(mask == 0, float('-inf'))
+        attn_probs = torch.softmax(attn_scores, dim=-1)
+        output = torch.matmul(attn_probs, value)
+        return output
+
+    def _split_heads(self, x, batch_size):
+        x = x.view(batch_size, -1, self.num_heads, self.head_dim)
+        return x.transpose(1, 2)
+
+    def _merge_heads(self, x, batch_size):
+        x = x.transpose(1, 2).contiguous().view(batch_size, -1, self.embed_dim)
+        return x
+
+    def forward(self, query, key, value, mask=None):
+        batch_size = query.size(0)
+
+        # Linear transformations
+        Q = self.q_linear(query)
+        K = self.k_linear(key)
+        V = self.v_linear(value)
+
+        # Split into multiple heads
+        Q = self._split_heads(Q, batch_size)
+        K = self._split_heads(K, batch_size)
+        V = self._split_heads(V, batch_size)
+
+        # Scaled dot-product attention
+        attn_output = self._scaled_dot_product_attention(Q, K, V, mask)
+
+        # Merge heads
+        attn_output = self._merge_heads(attn_output, batch_size)
+
+        # Output projection
+        output = self.out_proj(attn_output)
+        return output
+
+class PositionWiseFeedForward(nn.Module):
+    def __init__(self, embed_dim, ff_dim):
+        super().__init__()
+        self.fc1 = nn.Linear(embed_dim, ff_dim)
+        self.relu = nn.ReLU()
+        self.fc2 = nn.Linear(ff_dim, embed_dim)
+
+    def forward(self, x):
+        return self.fc2(self.relu(self.fc1(x)))
+
+class EncoderLayer(nn.Module):
+    def __init__(self, embed_dim, num_heads, ff_dim, dropout):
+        super().__init__()
+        self.self_attn = MultiHeadAttention(embed_dim, num_heads)
+        self.feed_forward = PositionWiseFeedForward(embed_dim, ff_dim)
+        self.norm1 = nn.LayerNorm(embed_dim)
+        self.norm2 = nn.LayerNorm(embed_dim)
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, x, mask):
+        # Self-attention
+        attn_output = self.self_attn(x, x, x, mask)
+        # Add & Norm
+        norm1_output = self.norm1(x + self.dropout(attn_output))
+        # Feed-forward
+        ff_output = self.feed_forward(norm1_output)
+        # Add & Norm
+        output = self.norm2(norm1_output + self.dropout(ff_output))
+        return output
+
+class DecoderLayer(nn.Module):
+    def __init__(self, embed_dim, num_heads, ff_dim, dropout):
+        super().__init__()
+        self.masked_attn = MultiHeadAttention(embed_dim, num_heads)
+        self.enc_dec_attn = MultiHeadAttention(embed_dim, num_heads)
+        self.feed_forward = PositionWiseFeedForward(embed_dim, ff_dim)
+        self.norm1 = nn.LayerNorm(embed_dim)
+        self.norm2 = nn.LayerNorm(embed_dim)
+        self.norm3 = nn.LayerNorm(embed_dim)
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, x, enc_output, src_mask, tgt_mask):
+        # Masked self-attention
+        masked_attn_output = self.masked_attn(x, x, x, tgt_mask)
+        # Add & Norm
+        norm1_output = self.norm1(x + self.dropout(masked_attn_output))
+        # Encoder-Decoder attention
+        enc_dec_attn_output = self.enc_dec_attn(norm1_output, enc_output, enc_output, src_mask)
+        # Add & Norm
+        norm2_output = self.norm2(norm1_output + self.dropout(enc_dec_attn_output))
+        # Feed-forward
+        ff_output = self.feed_forward(norm2_output)
+        # Add & Norm
+        output = self.norm3(norm2_output + self.dropout(ff_output))
+        return output
+
+class PositionalEncoding(nn.Module):
+    def __init__(self, embed_dim, dropout, max_len=5000):
+        super().__init__()
+        self.dropout = nn.Dropout(dropout)
+
+        position = torch.arange(0, max_len).unsqueeze(1)
+        div_term = torch.exp(torch.arange(0, embed_dim, 2) * (-math.log(10000.0) / embed_dim))
+        pe = torch.zeros(max_len, 1, embed_dim)
+        pe[:, 0, 0::2] = torch.sin(position * div_term)
+        pe[:, 0, 1::2] = torch.cos(position * div_term)
+        self.register_buffer('pe', pe)
+
+    def forward(self, x):
+        x = x + self.pe[:x.size(1), :].transpose(0, 1)
+        return self.dropout(x)
+
+class SequenceEncoder(nn.Module):
+    def __init__(self, vocab_size, embed_dim, num_layers, num_heads, ff_dim, dropout, max_len):
+        super().__init__()
+        self.embedding = nn.Embedding(vocab_size, embed_dim)
+        self.pos_encoding = PositionalEncoding(embed_dim, dropout, max_len)
+        self.layers = nn.ModuleList([
+            EncoderLayer(embed_dim, num_heads, ff_dim, dropout)
+            for _ in range(num_layers)
+        ])
+        self.norm = nn.LayerNorm(embed_dim)
+
+    def forward(self, src, mask=None):
+        x = self.embedding(src)
+        x = self.pos_encoding(x)
+        for layer in self.layers:
+            x = layer(x, mask)
+        return self.norm(x)
+
+class PotencyPredictor(nn.Module):
+    def __init__(self, smiles_vocab_size, protein_vocab_size, embed_dim, num_layers, num_heads, ff_dim, dropout,
+                 smiles_max_len, protein_max_len, fusion_dim=256):
+        super().__init__()
+        self.smiles_encoder = SequenceEncoder(smiles_vocab_size, embed_dim, num_layers, num_heads, ff_dim, dropout, smiles_max_len)
+        self.protein_encoder = SequenceEncoder(protein_vocab_size, embed_dim, num_layers, num_heads, ff_dim, dropout, protein_max_len)
+
+        self.fusion_dim = fusion_dim
+        self.fusion = nn.Linear(2 * embed_dim, fusion_dim) # Simple concatenation followed by linear layer
+        self.relu = nn.ReLU()
+        self.predict = nn.Linear(fusion_dim, 1) # Predict a single potency value
+
+    def forward(self, smiles_seq, protein_seq, smiles_mask=None, protein_mask=None):
+        smiles_encoded = self.smiles_encoder(smiles_seq, smiles_mask)
+        protein_encoded = self.protein_encoder(protein_seq, protein_mask)
+
+        # Simple fusion: Take the mean of the sequence embeddings
+        smiles_pooled = smiles_encoded.mean(dim=1) # (batch_size, embed_dim)
+        protein_pooled = protein_encoded.mean(dim=1) # (batch_size, embed_dim)
+
+        # Concatenate and fuse
+        combined = torch.cat((smiles_pooled, protein_pooled), dim=-1)
+        fused = self.relu(self.fusion(combined))
+
+        potency = self.predict(fused)
+        return potency
+
+# Example Usage:
+if __name__ == '__main__':
+    # Dummy vocabulary and sequence lengths
+    smiles_vocab_size = 100
+    protein_vocab_size = 25
+    embed_dim = 64
+    num_layers = 2
+    num_heads = 2
+    ff_dim = 128
+    dropout = 0.1
+    smiles_max_len = 50
+    protein_max_len = 100
+    batch_size = 32
+
+    # Dummy data
+    smiles_data = torch.randint(1, smiles_vocab_size, (batch_size, smiles_max_len))
+    protein_data = torch.randint(1, protein_vocab_size, (batch_size, protein_max_len))
+    potency_labels = torch.randn(batch_size, 1)
+
+    # Create model
+    model = PotencyPredictor(smiles_vocab_size, protein_vocab_size, embed_dim, num_layers, num_heads, ff_dim, dropout,
+                             smiles_max_len, protein_max_len)
+
+    # Forward pass
+    predictions = model(smiles_data, protein_data)
+    print("Predictions shape:", predictions.shape)
